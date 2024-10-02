@@ -1,0 +1,376 @@
+body{
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.19);
+}
+.navbar{
+  width: 100%;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.logo{
+  width: 80px;
+  height: 15px;
+  margin-top: 14px;
+  margin-left: 30px;
+}
+input[type=search]{
+  display: none;
+  padding: 5px 5px 0px 3px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-size: 12px;
+  width: 250px;
+  border-bottom: 1px solid gray;
+  background-image: url('./images/search.png');
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: right;
+}
+::placeholder{
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+input:focus{
+  outline: none;
+  border-bottom:2px solid #FF69B4 ;
+}
+.icon_c{
+  display: flex;
+}
+.navlink{
+  display: none;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: 16px;
+}
+.nav_usr{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 16px;
+}
+.icon_search{
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.main_1{
+ width: 100%;
+ display: flex;
+ background-color: white;
+}
+.side_bar{
+  width: 10%;
+}
+.side_icon_c{
+  margin-top: 40px;
+  padding-left: 15px;
+  margin-right: 0px;
+}
+.side_bar_dot_selected{
+  width: 4px;
+  height: 4px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+.side_bar_dot{
+  width: 4px;
+  height: 4px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: grey;
+}
+.sidebar_bar_selected{
+  width: 0px;
+  height: 30px;
+  margin-left: 2.1px;
+  border: 1px solid grey;
+}
+.sidebar_bar{
+  width: 0px;
+  height: 30px;
+  margin-left: 2.5px;
+  border: 0.5px solid gray;
+}
+.main_content{
+  width: 90%;
+}
+.main_img_c{
+  width: 100%;
+}
+.main_img{
+  width: 290px;
+  height: 180px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.buttom_icon{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px 10px 0px;
+}
+.buttom_icon_c{
+  display: flex;
+}
+.main_content_dot{
+  width: 5px;
+  height: 5px;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+.main_content_dot_selected{
+  width: 5px;
+  height: 5px;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #FF69B4;
+  border-radius: 10px;
+  background-color: #FF69B4;
+}
+.main_2{
+  width: 100%;
+  padding-top: 20px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+h4,p{
+  margin: 0px;
+  padding: 0px;
+  color: ;
+}
+.top_c{
+  width: 95%;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+.top_txt{
+  font-size: 25px;
+  padding-right: 45px;
+}
+.top_icon{
+  margin-top: 6px;
+  margin-right: 10px;
+}
+.icon_t{
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.rating_c{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.rating{
+  width: 78px;
+  height: 12px;
+}
+.mid_1_c{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: grey;
+}
+.mid_2_c{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: grey;
+}
+.price{
+  color: black;
+  text-align: right;
+}
+.mid_3_c{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: grey;
+}
+.txt{
+  padding-right: 65px;
+}
+.txt_r{
+  padding-right: 40px;
+}
+.tenure_txt{
+  margin-top: 3px;
+  padding-right: 40px;
+}
+.tenure_icon{
+  display: flex;
+  font-size: 10px;
+  color: black;
+}
+.circle{
+  width: 18px;
+  height: 16px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 4px 0px 0px 0px;
+}
+.circle_selected{
+  width: 23px;
+  height: 19px;
+  border-radius: 12px;
+  border: 1px solid #FF69B4;
+  text-align: center;
+  padding: 4px 0px 0px 0px;
+  color: white;
+  background-color: #FF69B4;
+}
+.bar{
+  margin-top: 11px;
+  height: 0px;
+  width: 20px;
+  border: 0.5px solid gray;
+}
+.mid_4_c{
+  width: 80%;
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: grey;
+}
+.mid_5_c{
+  font-size: 13px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: #FF69B4;
+}
+.mid_6_c{
+  display: flex;
+  margin-left: 10px; 
+}
+.btn_add{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+.btn_rent{
+  width: 150px;
+  height: 40px;
+  color: white;
+  border-radius: 3px;
+  background-color: #FF69B4;
+  border: 2px solid #FF69B4;
+  margin-left: 7px; 
+}
+@media(min-width: 992px) {
+  body{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+  }
+  .container{
+    width: 60%;
+    box-shadow: 0px 2px 100px 0px rgba(0, 0, 0, 0.19);
+  }
+  .navbar{
+    padding: 2px 0px 30px 0px;
+  }
+  .logo{
+  margin-left: 50px;
+}
+  .icon_c{
+    margin-right: 40px;
+  }
+  input[type=search]{
+    display: initial;
+    margin-right: 20px;
+  }
+  .icon_search{
+    display: none;
+  }
+  .navlink{
+  display: initial;
+  margin-left: 30px;
+  margin-right: 10px;
+  
+  }
+  .main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main_1{
+    width: 60%;
+  }
+  .side_icon_c{
+  margin-top: 110px;
+}
+  .main_content{
+    margin-top: 75px;
+  }
+  .main_img{
+  width: 330px;
+  height: 190px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.buttom_icon{
+  margin-top: 25px;
+}
+.buttom_icon_c{
+  margin-right: 55px;
+}
+  .main_2{
+    width: 50%;
+  }
+  .top_c{
+  width: 85%;
+  }
+  .mid_3_c{
+  width: 80%;
+  }
+  .mid_4_c{
+  width: 60%;
+  }
+  .btn_add{
+  width: 150px;
+  height: 40px;
+}
+.btn_rent{
+  width: 150px;
+  height: 40px;
+  }
+  }
